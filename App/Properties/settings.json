@@ -1,0 +1,12 @@
+{
+    "logDirectory": "S://Webapp/Logs/",
+    "logFile": "app_log.txt",
+    "minimumScyllaBucketDays": 5,
+    "pgCountersConnection": "Host=localhost;Username=social;Password=PASSWORD_HERE;Database=scylla_buckets;MaxPoolSize=20",
+    "pgDocsConnection": "Host=localhost;Username=social;Password=PASSWORD_HERE;Database=socialDocs;MaxPoolSize=50",
+    "pgRDBMSConnection": "Host=localhost;Username=social;Password=PASSWORD_HERE;Database=socialRDBMS;MaxPoolSize=20",
+    "rootPath": "S://Webapp/App/",
+    "scyllaTestHosts": ["127.0.0.1"],
+    "scyllaPostsHosts": ["127.0.0.1"],
+    "staticFileLocation": "S:/Webapp/App/wwwroot"
+}

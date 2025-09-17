@@ -1,0 +1,23 @@
+{
+    "__reference__":{
+        "__case__": "case reference code goes here -- key MUST be '__case__' -- result MUST be a string",
+        "case1": "part_for_case1",
+        "case2": "part_for_case2",
+        "case3": "part_will_be_looked_up_in_partPathRegister",
+        "case4": "will_use_parents_app_references"
+    },
+    "test":{
+        "__case__": "System.IO.File.ReadAllText(\"../../../tests/testText4.txt\")",
+        "bafh78djfa98": "True"
+    },
+    "IsLoggedInHeader":{
+        "__case__": "Authentication.ThisContext.LoggedIn().ToString()",
+        "True": "loggedInHeader",
+        "False": "loggedOutHeader"
+    },
+    "IsLoggedInHomeHeader":{
+        "__case__": "Authentication.ThisContext.LoggedIn().ToString()",
+        "True": "loggedInHomeHeader",
+        "False": "loggedOutHomeHeader"
+    }
+}

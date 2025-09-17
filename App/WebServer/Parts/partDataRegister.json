@@ -1,0 +1,68 @@
+{
+    "__reference__":{
+        "required":{
+            "key": "type"
+        },
+        "optional":{
+            "key": ["type", "default"]
+        }
+    },
+    "test":{
+        "required":{
+            "key1": "text",
+            "key2": "parts"
+        },
+        "optional":{
+            "key3": ["text", "defaults"],
+            "key4": ["parts", "{}"]
+        }
+    },
+    "boards":{
+        "required":{
+            "title": "text",
+            "postCards": "parts"
+        },
+        "optional":{
+        }
+    },
+    "booths":{
+        "required":{
+            "title": "text",
+            "content": "parts"
+        },
+        "optional":{
+        }
+    },
+    "carouselCards":{
+        "required":{
+            "title": "text",
+            "target": "text"
+        },
+        "optional":{
+        }
+    },
+    "plazas":{
+        "required":{
+            "title": "text",
+            "titleLetter": "text",
+            "residents": "text",
+            "visitors": "text",
+            "description": "text"
+        },
+        "optional": {
+            "booths": ["parts", "{}"],
+            "boards": ["parts", "{}"]
+        }
+    },
+    "postCards":{
+        "required":{
+            "preview": "text",
+            "author": "text",
+            "vote": "text",
+            "commentCount": "text"
+        },
+        "optional":{
+            "tags": ["text", ""]
+        }
+    }
+}

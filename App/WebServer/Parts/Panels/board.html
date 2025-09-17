@@ -1,0 +1,11 @@
+            <section class="board" id="boards{{value.id}}">
+                <div class="boardTop flexRow">
+                    <div class="boardTitle">{{value.title}}</div>
+                    <div class="hSpacer"></div>
+                    <div class="boardAddButton" addPostTarget="{{value.id}}">+ Add New Post</div>
+                    <div class="boardSort flexRow">Trending ˅<div class="sortMenu"></div></div>
+                </div>
+                <div class="boardContent flexColumn">
+                    {{blocks.postCards}}
+                </div>
+            </section>

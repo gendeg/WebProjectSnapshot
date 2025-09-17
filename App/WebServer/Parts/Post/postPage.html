@@ -1,0 +1,28 @@
+        <div class="postPage flexColumn">
+            <div class="postContent flexColumn {{value.type}}">
+                <div class="postContentHeader flexRow">
+                    <div class="postPageTitle">{{value.title}}</div>
+                    <div class="postPagePlaza"><span>Posted in:</span>{{value.plaza}}</div>
+                    <div class="postPageAuthor"><span>Posted by:</span>{{value.author}}</div>
+                </div>
+                <div class="postContentInner">
+                    {{value.content}}
+                </div>
+                <div class="postContentFooter flexColumn">
+                    <div class="postPageValues flexRow">
+                        <div class="postPageVote">{{value.vote}} <span class="upArrow">⇧</span><span class="downArrow">⇩</span></div>
+                        <div class="hSpacer"></div>
+                        <div class="postPageTags">{{value.tags}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="postPageComments">
+                <div><span class="commentTitle">Comments</span><span class="commentCount">{{value.commentCount}}</span></div>
+                <div class="addComment">Add Comment:<input type="text" id="addCommentText"><input type="button" id="submitComment" value="Submit" target="{{value.id}}" nonceVal="{{value.postCommentNonce}}"></div>
+                <div class="commentContainer">
+                    <div class="commentItem">Wow, that's beautiful!</div>
+                    <div class="commentItem">I went there way back when they hosted Winter Olympics!  I've always wanted to go back!</div>
+                    <div class="commentItem">That looks like a great place to go skiing</div>
+                </div>
+            </div>
+        </div>

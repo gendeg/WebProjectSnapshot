@@ -1,0 +1,23 @@
+<body>
+    {{part.header}}
+    <main>
+        <section id="plazaHeader" class="flexRow">
+            <div class="circleLetter">{{value.titleLetter}}</div>
+            <div id="plazaInfo">
+                <div id="plazaTitle" class="flexRow">
+                    <span>{{value.title}}</span>
+                    <div id="residents" class="plazaPeople">Residents <span>{{value.residents}}</span></div>
+                    <div id="visitors" class="plazaPeople">Visitors <span>{{value.visitors}}</span></div>
+                </div>
+                <div id="plazaDescription">{{value.description}}</div>
+            </div>
+            <div id="plazaMenu"><img src="/img/menu.png"></div>
+        </section>
+        {{part.carousel}}
+        <div id="plazaContent">
+            {{blocks.boards}}
+            {{blocks.booths}}
+            {{blocks.forums}}
+        </div>
+    </main>
+</body>

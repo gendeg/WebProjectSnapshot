@@ -1,0 +1,13 @@
+                    <div class="postCard flexRow {{value.type}}">
+                        <div class="postPreview"><div class="postPreviewInner" viewPostTarget="{{value.id}}">{{value.preview}}</div></div>
+                        <div class="postCardMeta flexColumn">
+                            <div class="postCardTitle"><a href="/Plaza/{{value.plaza}}/{{value.url}}/post" target="_blank">{{value.title}}</a></div>
+                            <div class="vSpacer"></div>
+                            <div class="postCardTags">{{value.tags}}</div>
+                            <div class="postCardValues flexRow">
+                                <div class="postCardAuthor">{{value.author}}</div>
+                                <div class="postCardVote">♥ {{value.vote}}</div>
+                                <div class="postCardComments">💬 {{value.commentCount}}</div>
+                            </div>
+                        </div>
+                    </div>

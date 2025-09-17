@@ -1,0 +1,18 @@
+{
+    "boards": "Panels/board.html",
+    "booths": "Panels/booth.html",
+    "carousel": "Plaza/carousel.html",
+    "carouselCards": "Plaza/carouselCards.html",
+    "header": "Common/header.html",
+    "home": "Home/home.html",
+    "loggedInHeader": "Common/loggedInHeader.html",
+    "loggedInHomeHeader": "Home/loggedInHomeHeader.html",
+    "loggedOutHeader": "Common/loggedOutHeader.html",
+    "loggedOutHomeHeader": "Home/loggedOutHomeHeader.html",
+    "plaza": "Plaza/plaza.html",
+    "postPage": "Post/postPage.html",
+    "postCards": "Panels/postCard.html",
+    "test": "../../../Tests/tests/testText.txt",
+    "test2": "../../../Tests/tests/testText2.txt",
+    "test3": "../../../Tests/tests/testText3.txt"
+}
